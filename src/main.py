@@ -268,8 +268,9 @@ def main(page: ft.Page):
 	page.add(ft.SafeArea(expand=True, content=background))
 
 
-if __name__ == "__main__":
-	ft.run(main)
+#if __name__ == "__main__":
+#	ft.run(main)
+app = ft.run(main)
 
 """import flet as ft
 
