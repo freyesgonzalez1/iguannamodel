@@ -270,4 +270,5 @@ def main(page: ft.Page):
 
 #if __name__ == "__main__":
 #	ft.run(main)
-app = ft.run(main, export_asgi_app=True)
+ft.run(main, export_asgi_app=True)
+app = None
